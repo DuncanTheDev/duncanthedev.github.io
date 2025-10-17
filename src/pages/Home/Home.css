@@ -1,0 +1,45 @@
+/* Correcting and improving the typing effect animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.looping-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  animation: typing 3s steps(30) infinite alternate-reverse;
+}
+
+@media (max-width: 600px) {
+  #home {
+    flex-direction: column-reverse;
+  }
+
+  #home h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #home img {
+    width: 300px;
+  }
+
+  #home .flex {
+    display: flex;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    gap: 15px; /* Space between icons */
+  }
+
+  #home .flex a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
