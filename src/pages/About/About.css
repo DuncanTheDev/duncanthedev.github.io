@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+  #about {
+    padding-top: 100px;
+  }
+
+  #about h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #about p {
+    font-size: 1rem;
+  }
+
+  .title {
+    margin-bottom: 1rem;
+  }
+
+  .content-section {
+    flex-direction: column-reverse;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .education h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
