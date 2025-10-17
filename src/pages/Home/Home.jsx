@@ -31,9 +31,9 @@ export default function Home() {
       className="min-h-screen flex items-center justify-center gap-10 w-100%"
     >
       <div data-aos="fade-right" className="flex flex-col gap-3">
-        <h1 className="text-3xl text-[#2b2c34] font-bold">
+        <h2 className="text-3xl text-[#2b2c34] font-bold">
           Hi, I'm Patrick Duncan
-        </h1>
+        </h2>
         <h1 className="text-4xl text-[#2b2c34] font-bold pr-5 looping-text">
           Aspiring Full Stack Developer
         </h1>

@@ -16,14 +16,17 @@
   animation: typing 3s steps(30) infinite alternate-reverse;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   #home {
     flex-direction: column-reverse;
   }
 
   #home h1 {
-    font-size: 20px;
-    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  #home h2 {
+    font-size: 1.2rem;
   }
 
   #home img {
